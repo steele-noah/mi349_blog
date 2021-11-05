@@ -47,3 +47,30 @@ th {
 form {
     padding-top: 20px;
 }
+
+.navigation {
+    background-color: darkgray;
+    position: sticky;
+    top: 0;
+    left: 1;
+    display: flex;
+}
+
+.float_image {
+    height: .10px;
+    width: .10px;
+    float: left;
+    margin-left: 10px;
+}
+
+section{
+    display: flex;
+}
+
+.img_container{
+    background: blue;
+    width: 50px;
+    height: 50px;
+    float: right;
+    /* Everytime I try adding the image, to the desired location, the image is blown way up in size. I could not figure out how to fix that. */
+}
